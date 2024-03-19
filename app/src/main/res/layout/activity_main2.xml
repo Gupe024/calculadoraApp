@@ -51,7 +51,7 @@
                 android:textSize="32dp"
                 android:textColor="@color/white"
                 android:layout_margin="12dp"
-                android:id="@+id/button_C"
+                android:id="@+id/button_c"
                 android:backgroundTint="#E91E63"
                 android:text="C" />
             <com.google.android.material.button.MaterialButton

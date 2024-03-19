@@ -28,8 +28,26 @@ public class MainActivity2 extends AppCompatActivity implements View.OnClickList
         resultTv=findViewById(R.id.result_Tv);
         solutionTv=findViewById(R.id.solution_Tv);
 
-
-
+        assingId(buttonC,R.id.button_c);
+        assingId(buttonBrackOpen,R.id.button_open_bracket);
+        assingId(buttonBrackClose,R.id.button_close_bracket);
+        assingId(buttonDivide,R.id.button_divide);
+        assingId(buttonMultiply,R.id.button_multiply);
+        assingId(buttonPlus,R.id.button_plus);
+        assingId(buttonMinus,R.id.button_minus);
+        assingId(buttonEquals,R.id.button_equals);
+        assingId(button0,R.id.button_0);
+        assingId(button1,R.id.button_1);
+        assingId(button2,R.id.button_2);
+        assingId(button3,R.id.button_3);
+        assingId(button4,R.id.button_4);
+        assingId(button5,R.id.button_5);
+        assingId(button6,R.id.button_6);
+        assingId(button7,R.id.button_7);
+        assingId(button8,R.id.button_8);
+        assingId(button9,R.id.button_9);
+        assingId(buttonAC,R.id.button_ac);
+        assingId(buttonDot,R.id.button_dot);
 
     }
 
@@ -41,6 +59,9 @@ public class MainActivity2 extends AppCompatActivity implements View.OnClickList
 
     @Override
     public void onClick(View v) {
+        MaterialButton button=(MaterialButton) v;
+        String buttonText =button.getText().toString();
+        solutionTv.setText(buttonText);;
 
     }
 }
