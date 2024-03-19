@@ -10,7 +10,7 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:background="@drawable/shaoran"
-        android:gravity="center_horizontal|"
+        android:gravity="center_horizontal"
         android:orientation="vertical">
 
         <ImageView
@@ -24,7 +24,8 @@
             android:id="@+id/usuario"
             android:layout_width="150dp"
             android:layout_height="48dp"
-            android:text="Ingresa tu usuario"
+            android:hint="Usuario"
+            android:inputType="text"
             android:textSize="14sp"
             android:textColor="#636262" />
 
@@ -32,7 +33,8 @@
             android:id="@+id/password"
             android:layout_width="150dp"
             android:layout_height="48dp"
-            android:text="Password"
+            android:inputType="textPassword"
+            android:hint="Password"
             android:textSize="14sp"
             android:textColor="#636262"
             android:layout_marginTop="15sp"/>
@@ -46,6 +48,5 @@
             android:backgroundTint="#8BC34A"/>
 
     </LinearLayout>
-
 
 </androidx.constraintlayout.widget.ConstraintLayout>
