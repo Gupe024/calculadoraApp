@@ -8,20 +8,20 @@
     android:background="@drawable/shaoran">
 
     <TextView
+        android:id="@+id/solution_Tv"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:id="@+id/solution_tv"
         android:text="0"
         android:textSize="32dp"
         android:textAlignment="textEnd"
         android:textColor="@color/white"
-        android:layout_above="@+id/result_tv"
+        android:layout_above="@+id/result_Tv"
         android:layout_margin="16dp"/>
 
     <TextView
+        android:id="@+id/result_Tv"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:id="@+id/result_tv"
         android:text="0"
         android:textSize="64dp"
         android:textAlignment="textEnd"
@@ -51,7 +51,7 @@
                 android:textSize="32dp"
                 android:textColor="@color/white"
                 android:layout_margin="12dp"
-                android:id="@+id/button_c"
+                android:id="@+id/button_C"
                 android:backgroundTint="#E91E63"
                 android:text="C" />
             <com.google.android.material.button.MaterialButton
